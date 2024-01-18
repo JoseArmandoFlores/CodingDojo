@@ -3,8 +3,8 @@
 ## Dummy Commits (testing my local config)
 1. Lorenzo Solano M.
 2. Cesar Encarnacion
-3. (next person)
-
+3. Jose A. Flores
+4. Prisila Baez
 
 ## Public API
 
