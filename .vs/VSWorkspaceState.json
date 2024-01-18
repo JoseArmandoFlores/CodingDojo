@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Posts.Models",
     "\\PostsTests"
   ],
-  "SelectedNode": "\\PostsTests\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }

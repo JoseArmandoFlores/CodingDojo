@@ -1,4 +1,3 @@
-
 namespace PostsTests
 {
     public class PostTest
@@ -9,9 +8,11 @@ namespace PostsTests
 
          
          */
-        
+        [Test]
         public void When_BdCheckerNull_ThrowsArgumentNullExcep()
         {
+            IBadWordsChecker bdChecker = null;
+            IPostRepository postRepository = null;
             //Arrange
 
             //Act
