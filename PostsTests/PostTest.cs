@@ -1,28 +1,26 @@
+using Posts.Models;
+
 namespace PostsTests
 {
-    public class PostTest
+    public class PostTest 
     {
         /*
          1. with bdChecker null throw argument null exception
          2. with PostRepository null throw argument null exception
-
-         
          */
+
         [Test]
         public void When_BdCheckerNull_ThrowsArgumentNullExcep()
         {
-            IBadWordsChecker bdChecker = null;
-            IPostRepository postRepository = null;
-            //Arrange
-
             //Act
-
+            IBadWordsChecker bdChecker = null;
+            IPostRepository postRepository = new Mock<IPostRepository>().Object;
+            
             //Assert
+            Assert.That(() => new PostService(bdChecker, postRepository), Throws.ArgumentNullException);
         }
-
     }
 }
-
 
 /*
         public class PostService{

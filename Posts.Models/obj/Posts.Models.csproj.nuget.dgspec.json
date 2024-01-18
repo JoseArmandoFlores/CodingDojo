@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\Posts.Models\\Posts.Models.csproj": {}
+    "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\Posts.Models\\Posts.Models.csproj": {
+    "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
         "projectName": "Posts.Models",
-        "projectPath": "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
-        "packagesPath": "C:\\Users\\Prisila Baez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\Posts.Models\\obj\\",
+        "projectPath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
+        "packagesPath": "C:\\Users\\Jose A Flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Prisila Baez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose A Flores\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,12 +50,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

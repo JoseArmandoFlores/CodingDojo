@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\PostsTests\\PostsTests.csproj": {}
+    "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\PostsTests\\PostsTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\PostsTests\\PostsTests.csproj": {
+    "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\PostsTests\\PostsTests.csproj",
-        "projectName": "PostsTests",
-        "projectPath": "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\PostsTests\\PostsTests.csproj",
-        "packagesPath": "C:\\Users\\Prisila Baez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\PostsTests\\obj\\",
+        "projectUniqueName": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
+        "projectName": "Posts.Models",
+        "projectPath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
+        "packagesPath": "C:\\Users\\Jose A Flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Prisila Baez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose A Flores\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,10 +39,87 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\PostsTests\\PostsTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\PostsTests\\PostsTests.csproj",
+        "projectName": "PostsTests",
+        "projectPath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\PostsTests\\PostsTests.csproj",
+        "packagesPath": "C:\\Users\\Jose A Flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\PostsTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jose A Flores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj": {
+                "projectPath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "NUnit": {
               "target": "Package",
@@ -72,12 +149,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

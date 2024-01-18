@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2/q3QTVIe50NmGokH9BsrTR+e1pTDZzl7wHZ4WJDV9dov457Q5+yR+kxhcr/JqqdlqHiz1AvPzTB0YJgxKXRpw==",
+  "dgSpecHash": "tAfDhWZcVbxY1YNeKrmrXJkIUt8m9z9OZW3f+nix0OCmUlgIRM9+AYSQ2LGxdmZYeKbbFDKA329tdECuUowjfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Prisila Baez\\source\\repos\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Jose A Flores\\Desktop\\JoseArmandoFlores\\CodingDojo\\Posts.Models\\Posts.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jose A Flores\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Jose A Flores\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Jose A Flores\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
