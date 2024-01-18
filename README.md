@@ -2,4 +2,5 @@
 
 ## Dummy Commits (testing my local config)
 1. Lorenzo Solano M.
-2. (next person)
+2. Cesar Encarnacion
+3. (next person)
