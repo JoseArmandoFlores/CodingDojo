@@ -1,12 +1,24 @@
+
 namespace PostsTests
 {
     public class PostTest
     {
         /*
          1. with bdChecker null throw argument null exception
-          
+         2. with PostRepository null throw argument null exception
+
          
          */
+        
+        public void When_BdCheckerNull_ThrowsArgumentNullExcep()
+        {
+            //Arrange
+
+            //Act
+
+            //Assert
+        }
+
     }
 }
 
