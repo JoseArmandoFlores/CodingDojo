@@ -1,3 +1,5 @@
+using CodigoDojo2;
+
 namespace CodignDojo2.Tests
 {
     public class PostTests
@@ -8,9 +10,11 @@ namespace CodignDojo2.Tests
         }
 
         [Test]
-        public void Test1()
+        public void WhenReceiveGoodPostReturnId()
         {
-            Assert.Pass();
+            Post newP = new Post();
+
+           
         }
     }
 }
