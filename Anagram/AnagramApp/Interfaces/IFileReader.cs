@@ -6,7 +6,7 @@ namespace AnagramApp.Interfaces
 {
     public interface IFileReader
     {
-        Task<List<string>> GetWords();
+        static Task<List<string>> GetWords();
     }
 
 }

@@ -1,4 +1,4 @@
-﻿using AnagramApp.Interfaces
+﻿using AnagramApp.Interfaces;
 
 namespace AnagramApp.Services
 {
