@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using Kata06_Anagrams;
 
 namespace Kata06_Anagrams.Test
 {
@@ -7,8 +8,11 @@ namespace Kata06_Anagrams.Test
     public class AnagramsTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public async void When_PassedValidAnagrams_GetAnagrams_ShouldReturnAnagrams()
         {
+          
+
+            await Anagrams.GetAnagrams();
         }
     }
 }
