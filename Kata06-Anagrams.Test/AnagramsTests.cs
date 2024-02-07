@@ -4,7 +4,7 @@ using System;
 namespace Kata06_Anagrams.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class AnagramsTests
     {
         [TestMethod]
         public void TestMethod1()
