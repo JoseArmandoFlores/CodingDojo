@@ -5,6 +5,7 @@
 2. Cesar Encarnacion
 3. Jose A. Flores
 4. Prisila Baez
+5. Josue Pujols 
 
 ## Public API
 
