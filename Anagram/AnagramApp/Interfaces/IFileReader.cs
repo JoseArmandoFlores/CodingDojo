@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-public interface IFileReader
+namespace AnagramApp.Interfaces
 {
-    public static async Task<List<string>> GetWords()
+    public interface IFileReader
+    {
+        Task<List<string>> GetWords();
+    }
+
 }
