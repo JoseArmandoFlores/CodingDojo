@@ -7,6 +7,7 @@
 4. Prisila Baez
 5. Josue Pujols
 6. Jose Rafael Cruz 
+7. Darian King
 
 ## Public API
 
