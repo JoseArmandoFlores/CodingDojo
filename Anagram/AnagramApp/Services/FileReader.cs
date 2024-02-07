@@ -1,8 +1,8 @@
-﻿namespace Anagram
+﻿namespace AnagramApp.Services
 {
     public class FileReader
     {
-        public async static Task<List<string>> GetWords()
+        public static async Task<List<string>> GetWords()
             => (await File.ReadAllLinesAsync(@"words.txt")).ToList();
     }
 }
