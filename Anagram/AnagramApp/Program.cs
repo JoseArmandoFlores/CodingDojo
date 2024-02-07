@@ -2,18 +2,18 @@
 using AnagramApp.Services.Abstractions;
 using System.Diagnostics;
 
-Stopwatch timer = new Stopwatch();
+Stopwatch timer = new();
 timer.Start();
 Console.WriteLine("Anagram Word");
 IAlgorithmService algorithmService = new AlgorithmService();
 IWordService WordService = new WordService();
-List<string> words = await WordService.GetWords();
-int counter = 0;
-List<string[]> anagramsWords = algorithmService.FindAnagrams(words).ToList();
+IAnagramService anagramService = new AnagramService(algorithmService, WordService);
+IEnumerable<string[]> anagramsWords = await anagramService.ProcessAnagrams();
 timer.Stop();
+int counter = 0;
 foreach (string[] anagrams in anagramsWords)
 {
     counter++;
     Console.WriteLine($"{counter}: {string.Join(" ", anagrams)}");
 }
-Console.WriteLine($"");
+Console.WriteLine($"TotalTime(seconds): {timer.Elapsed.TotalSeconds}");

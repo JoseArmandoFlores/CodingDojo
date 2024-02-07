@@ -9,6 +9,18 @@ namespace Anagram.Tests
     public class AnagramTests
     {
         [TestMethod]
+        public void WhenNullWords_ShouldThrowArgumentExceptions()
+        {
+            AlgorithmService algorithmService = new AlgorithmService();
+
+            Action comparison = () =>
+            {
+                algorithmService.FindAnagrams(null);
+            };
+            comparison.Should().ThrowExactly<ArgumentNullException>();
+        }
+
+        [TestMethod]
         public async Task WhenNoWords_ShouldReturnNoWords()
         {
             List<string> wordsMock = new() { };
